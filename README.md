@@ -78,7 +78,5 @@ Este sistema demuestra capacidades avanzadas en:
 
 "Transforma tu portafolio en tu mejor herramienta comercial"
 
-
-
 📅 **Control de Versiones**  
 ![Versión](https://img.shields.io/badge/Versión-1.1.0-blue) ![Última Actualización](https://img.shields.io/badge/Actualizado-Jun_2025-green)
