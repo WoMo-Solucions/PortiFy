@@ -7,7 +7,7 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 
 ## 📋 Descripción del Sistema
-**PortiFy** es una solución tecnológica desarrollada por **WoMo Soluciónˢ** para la gestión profesional y exhibición de portafolios tecnológicos. Sistema núcleo que incluye:
+Es una solución tecnológica para la gestión profesional y exhibición de portafolios tecnológicos. Sistema núcleo que incluye:
 
 - Gestión unificada de proyectos
 - Dashboard de monitorización
@@ -81,5 +81,4 @@ Este sistema demuestra capacidades avanzadas en:
 
 
 📅 **Control de Versiones**  
-📅 ![Versión](https://img.shields.io/badge/Versión-1.1.0-blue)  
-🔄 ![Última Actualización](https://img.shields.io/badge/Actualizado-Jun_2025-green)
+![Versión](https://img.shields.io/badge/Versión-1.1.0-blue) ![Última Actualización](https://img.shields.io/badge/Actualizado-Jun_2025-green)
