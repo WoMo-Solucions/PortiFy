@@ -1,13 +1,11 @@
-# 🏭 PortiFy - CRM Especializado para Portafolios Tecnológicos
-
-![Estado](https://img.shields.io/badge/🚀_En_Desarrollo-blue) 
-![Licencia](https://img.shields.io/badge/Licencia-🔒_Privada-red)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+# 🏭 PortiFy 
+ ## Plataforma Tecnológica Central 
+ 
+![Estado](https://img.shields.io/badge/🚀_En_Producción-green)   ![Licencia](https://img.shields.io/badge/Licencia-🔒_Privada-red) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 
 ## 📋 Descripción del Sistema
-Es una solución tecnológica para la gestión profesional y exhibición de portafolios tecnológicos. Sistema núcleo que incluye:
+
+Plataforma tecnológica central para la gestión integral de proyectos y soluciones digitales. Sistema núcleo que incluye:
 
 - Gestión unificada de proyectos
 - Dashboard de monitorización
@@ -17,38 +15,44 @@ Es una solución tecnológica para la gestión profesional y exhibición de port
 ## 🛠 Stack Tecnológico
 
 **Backend Avanzado:**
-- Python + Flask (RESTful)
-- PostgreSQL (Database)
-- JWT (Autenticación)
-- SQLAlchemy (ORM)
+- Python Flask como núcleo
+- SQLite para desarrollo (PostgreSQL en producción)
+- JWT para autenticación segura
+- Blueprints para arquitectura modular
 
 **Frontend:**
-- Bootstrap 5 (Interfaz)
-- Chart.js (Gráficos)
-- Jinja2 (Templates)
+- Bootstrap 5 como framework CSS
+- Chart.js para visualización de datos
+- Jinja2 para plantillas dinámicas
 
 ## 🖥️ Estructura del Proyecto
-📁 portify/  
-├── 📂 controllers/  
-│   ├── auth.py       # Controlador de autenticación  
-│   ├── portfolio.py  # Gestión de portafolios  
-│   └── client.py     # Gestión de clientes  
-├── 📂 models/  
-│   └── project.py    # Modelo de proyectos  
-├── 📂 templates/     # Vistas HTML  
-└── 📂 migrations/    # Migraciones de base de datos  
-  
+📁 womo Solucións/  
+├── 📂 app/  
+│ ├── 📂 core/ # Módulos principales  
+│ │ ├── init.py  
+│ │ ├── auth.py # Autenticación  
+│ │ └── dashboard.py # Panel principal  
+│ ├── 📂 static/ # Assets estáticos  
+│ │ ├── css/  
+│ │ └── js/  
+│ ├── 📂 templates/ # Vistas  
+│ │ ├── base.html # Template base  
+│ │ └── dashboard/ # Vistas del panel  
+│ └── init.py # Inicialización  
+├── 📂 migrations/ # Migraciones DB  
+├── config.py # Configuración  
+└── run.py # Punto de entrada  
+
 
 ## 🔍 Características Clave
-Sistema CRM especializado para gestión y presentación de portafolios tecnológicos:
-- Gestión centralizada de proyectos, productos y servicios
-- Presentaciones profesionales personalizables
-- Herramientas CRM integradas para seguimiento de clientes
-- Control de accesos granular para compartir selectivamente
-- Métricas de visualización y engagement
-- Interfaz intuitiva y responsive
+- Gestión integral de inventario: Control centralizado de productos, categorías y ubicaciones.
+- Sistema de alertas inteligentes: Notificaciones para stock bajo o caducidades próximas.
+- Informes en tiempo real: Métricas de ventas, rotación y niveles de inventario.
+- Interfaz adaptable: Diseño responsive para acceso desde cualquier dispositivo.
+- Seguridad multirol: Accesos diferenciados (admin, empleado, invitado).
 
 ## 🛡️ Derechos de Autor y Uso
+
 © 2025 WoMo Soluciónˢ. Todos los derechos reservados.
 
 **Condiciones de uso:**
@@ -59,7 +63,7 @@ Sistema CRM especializado para gestión y presentación de portafolios tecnológ
 ## 📬 Contacto Corporativo
 
 **Julián Alberto Ramírez**  
-💻 CTO & Desarrollador Full Stack   
+💻 Socio Fundador & Visionario Tecnológico  
 ⚙️ Automatización | 🧩 Soluciones software |💡 Innovador Tecnológico | 🔍 Apasionado por IA  
 <img width="222" height="29" alt="Image" src="https://github.com/user-attachments/assets/24519130-f605-4762-a4f2-374c450f2b64" />  
 🏢 **Soluciones Tecnológicas Avanzadas**  
@@ -69,11 +73,13 @@ Sistema CRM especializado para gestión y presentación de portafolios tecnológ
 
 💡 **Notas Técnicas:**  
 Este sistema demuestra capacidades avanzadas en:  
-✅ Gestión profesional de portafolios tech  
-✅ Presentaciones impactantes para clientes  
-✅ Integración CRM para seguimiento de oportunidades  
+✅ Arquitecturas escalables empresariales  
+✅ Integración de sistemas complejos  
+✅ Seguridad de información corporativa  
 
-"Transforma tu portafolio en tu mejor herramienta comercial"
+"La excelencia técnica al servicio de la gestión eficiente"
+
 
 📅 **Control de Versiones**  
-![Versión](https://img.shields.io/badge/Versión-1.1.0-blue) ![Última Actualización](https://img.shields.io/badge/Actualizado-Jun_2025-green)
+ ![Versión](https://img.shields.io/badge/Versión-3.2.0-blue) ![Última Actualización](https://img.shields.io/badge/Actualizado-Jun_2025-green)
+
